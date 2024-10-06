@@ -5,7 +5,7 @@ class Car {
     public $brand;
     public $model;
     public $color;
-    const WHEELS = 4;
+    const WHEELS = 5;
 
     public function __construct($brand, $model, $color) {
         $this->brand = $brand;
